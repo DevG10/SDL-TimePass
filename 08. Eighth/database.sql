@@ -1,3 +1,6 @@
+-- First Create a database named complaint_management_system in XAMPP Server under phpMyAdmin
+-- Then run the following SQL commands to create the vehicles table
+
 CREATE DATABASE complaint_management_system;
 
 CREATE TABLE complaints (

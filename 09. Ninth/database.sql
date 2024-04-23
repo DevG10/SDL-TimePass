@@ -1,3 +1,6 @@
+-- First Create a database named toll_tax_management_system in XAMPP Server under phpMyAdmin
+-- Then run the following SQL commands to create the vehicles table
+
 CREATE DATABASE toll_tax_management_system;
 
 CREATE TABLE vehicles (
