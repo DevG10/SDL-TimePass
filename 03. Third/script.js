@@ -11,11 +11,9 @@ function validateForm() {
     document.getElementById("passwordError").innerText = "";
     document.getElementById("confirmPasswordError").innerText = "";
 
-    if (firstName === "") {
-        if (firstName === "") {
+    if (firstName === " ") {
             document.getElementById("firstNameError").innerText = "First name is required";
             valid = false;
-        }
         document.getElementById("firstNameError").innerText = "First name is required";
         valid = false;
     }
