@@ -1,11 +1,12 @@
 alert("JS file linked successfully!");
+
 const averageHumanLifespanYears = 60; 
 const weeksInYear = 52; 
 
 const averageWeeksInLifetime = averageHumanLifespanYears * weeksInYear;
 
-
 console.log("Average number of weeks in human lifetime:", averageWeeksInLifetime);
+
 const currentHour = new Date().getHours();
 
 function getTimeOfDay(hour) {
@@ -19,5 +20,7 @@ function getTimeOfDay(hour) {
 }
 
 const timeOfDay = getTimeOfDay(currentHour);
-console.log("Time of the day:", timeOfDay);
-console.log("Hour of the day:", currentHour);
+
+document.getElementById("result").innerHTML = "Average number of weeks in human lifetime: " + averageWeeksInLifetime;
+document.getElementById("result").innerHTML += "<br>Time of the day: " + timeOfDay;
+document.getElementById("result").innerHTML += "<br>Hour of the day: " + currentHour;
