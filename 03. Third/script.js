@@ -12,11 +12,15 @@ function validateForm() {
     document.getElementById("confirmPasswordError").innerText = "";
 
     if (firstName === "") {
+        if (firstName === "") {
+            document.getElementById("firstNameError").innerText = "First name is required";
+            valid = false;
+        }
         document.getElementById("firstNameError").innerText = "First name is required";
         valid = false;
     }
 
-    if (lastName === "") {
+    if (lastName === " ") {
         document.getElementById("lastNameError").innerText = "Last name is required";
         valid = false;
     }
